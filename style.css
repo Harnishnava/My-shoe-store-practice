@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.product {
+  border: 5px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: #fcf9be;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  /* margin-bottom: 20px; */
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+  /* margin-bottom: 20px; */
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: #039df7;
+}
+.color-red {
+  background-color: #e01414;
+}
+.color-yellow {
+  background-color: #afaf27;
+}
+.color-green {
+  background-color: #33e033;
+}
+.color-brown {
+  background-color: #a84848;
+}
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.add-cart {
+  background-color: black;
+  border-top: 5px solid black;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+}
+
+.add-cart:hover {
+  background-color: white;
+  color: black;
+  width: 100%;
+  padding: 15px;
+}
+
+.sale {
+  /* content: "SALE"; */
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #e01414;
+  color: whitesmoke;
+  padding: 5px 10px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+}
+/* my code  */
+/* h4 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+li {
+  list-style: square;
+  line-height: 1.5;
+}
+
+article p:nth-child(3) {
+  font-weight: bold;
+}
+
+p {
+  font-weight: 600;
+}
+
+#text {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#price {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+a:link {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: black;
+  color: #fcf9be;
+  text-transform: uppercase;
+  font-family: 20px;
+}
+
+button:hover {
+  background-color: #fcf9be;
+  color: black;
+} */
